@@ -229,6 +229,78 @@ Only include items from the LAST 7 DAYS. If none, return [].`;
   console.log(`  [collect] Total: ${results.items.length} items, ${results._errors.length} errors -> ${rawPath}`);
 }
 
+async function filter(weekStr) {
+  const rawPath = path.join(DATA_RAW, `${weekStr}.json`);
+  if (!fs.existsSync(rawPath)) {
+    console.error(`  [filter] Raw data not found: ${rawPath}`);
+    process.exit(1);
+  }
+  const raw = readJSON(rawPath);
+  const index = readJSON(INDEX_PATH) || { entries: {} };
+
+  // Step 1: Dedup against index
+  const newItems = raw.items.filter(item => !index.entries[item.url]);
+
+  // Step 2: Score with DeepSeek
+  const filtered = [];
+  const batchSize = 5;
+  for (let i = 0; i < newItems.length; i += batchSize) {
+    const batch = newItems.slice(i, i + batchSize);
+    const prompt = `Score each item on three dimensions (1-5). Be strict — most items are 2-3.
+
+Items:
+${JSON.stringify(batch, null, 2)}
+
+Scoring criteria:
+- practicality (1-5): Can this directly improve a workflow? Are there actionable steps?
+- freshness (1-5): Is this new information, not widely known?
+- credibility (1-5): Source authority, evidence quality
+
+Return a JSON array of scores (same order as input):
+[{"practicality": N, "freshness": N, "credibility": N, "reason": "one sentence"}]`;
+
+    const response = await chat(
+      'You score AI/tech content quality. Return only valid JSON array. No markdown.',
+      prompt
+    );
+    try {
+      const scores = JSON.parse(response);
+      for (let j = 0; j < batch.length; j++) {
+        const item = batch[j];
+        const score = scores[j] || { practicality: 1, freshness: 1, credibility: 1, reason: 'parse error' };
+        const total = score.practicality + score.freshness + score.credibility;
+        if (score.practicality >= 3 && score.freshness >= 2) {
+          filtered.push({ ...item, scores: score, total_score: total });
+          index.entries[item.url] = { week: weekStr, score: total };
+        }
+      }
+    } catch (err) {
+      console.error(`  [filter] Batch scoring failed at i=${i}: ${err.message}`);
+    }
+    await new Promise(r => setTimeout(r, 500));
+  }
+
+  // Sort by total score descending
+  filtered.sort((a, b) => b.total_score - a.total_score);
+
+  const filteredPath = path.join(DATA_FILTERED, `${weekStr}.json`);
+  ensureDir(DATA_FILTERED);
+  writeJSON(filteredPath, {
+    week: weekStr,
+    filtered_at: new Date().toISOString(),
+    total_raw: raw.items.length,
+    total_new: newItems.length,
+    total_passed: filtered.length,
+    items: filtered,
+  });
+
+  // Update index
+  index.last_updated = new Date().toISOString();
+  writeJSON(INDEX_PATH, index);
+
+  console.log(`  [filter] ${raw.items.length} raw -> ${newItems.length} new -> ${filtered.length} passed -> ${filteredPath}`);
+}
+
 async function main() {
   const step = process.argv[2] || 'all';
   const { weekStr } = getWeekInfo();
