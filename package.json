@@ -1,0 +1,12 @@
+{
+  "name": "ai-agent-weekly-intel",
+  "version": "1.0.0",
+  "description": "Weekly AI Agent intel pipeline — collect, filter, summarize",
+  "private": true,
+  "scripts": {
+    "pipeline": "node scripts/pipeline.js"
+  },
+  "dependencies": {
+    "openai": "^4.73.0"
+  }
+}
