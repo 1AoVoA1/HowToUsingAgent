@@ -49,6 +49,24 @@ async function chat(systemPrompt, userMessage) {
   return response.choices[0].message.content;
 }
 
+function extractJSON(text) {
+  // Remove markdown code fences
+  let cleaned = text.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim();
+  try {
+    return JSON.parse(cleaned);
+  } catch {}
+  // Try to find JSON array/object in text
+  const arrayMatch = cleaned.match(/\[[\s\S]*\]/);
+  if (arrayMatch) {
+    try { return JSON.parse(arrayMatch[0]); } catch {}
+  }
+  const objMatch = cleaned.match(/\{[\s\S]*\}/);
+  if (objMatch) {
+    try { return JSON.parse(objMatch[0]); } catch {}
+  }
+  throw new Error('Failed to extract JSON from: ' + cleaned.substring(0, 200));
+}
+
 function readJSON(p) {
   if (!fs.existsSync(p)) return null;
   return JSON.parse(fs.readFileSync(p, 'utf-8'));
@@ -171,10 +189,9 @@ Only include real, verifiable content. If you cannot find anything, return empty
           prompt
         );
         try {
-          items = JSON.parse(response);
+          items = extractJSON(response);
         } catch {
-          const match = response.match(/\[[\s\S]*\]/);
-          items = match ? JSON.parse(match[0]) : [];
+          items = [];
         }
       } else if (src.method === 'webfetch') {
         const html = await webFetch(src.url);
@@ -193,10 +210,9 @@ Only include items from the LAST 7 DAYS. If none, return [].`;
           prompt
         );
         try {
-          items = JSON.parse(response);
+          items = extractJSON(response);
         } catch {
-          const match = response.match(/\[[\s\S]*\]/);
-          items = match ? JSON.parse(match[0]) : [];
+          items = [];
         }
       }
 
@@ -264,7 +280,7 @@ Return a JSON array of scores (same order as input):
       prompt
     );
     try {
-      const scores = JSON.parse(response);
+      const scores = extractJSON(response);
       for (let j = 0; j < batch.length; j++) {
         const item = batch[j];
         const score = scores[j] || { practicality: 1, freshness: 1, credibility: 1, reason: 'parse error' };
