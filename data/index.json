@@ -1,4 +1,65 @@
 {
-  "entries": {},
-  "last_updated": "2026-05-13"
+  "entries": {
+    "https://www.anthropic.com/research/teaching-claude-why": {
+      "week": "2026-W20",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/what-81000-people-want-from-ai": {
+      "week": "2026-W20",
+      "score": 12
+    },
+    "https://jorijn.com/en/blog/leaving-github-for-forgejo/": {
+      "week": "2026-W20",
+      "score": 9
+    },
+    "https://www.sciencedaily.com/releases/2026/05/260510030950.htm": {
+      "week": "2026-W20",
+      "score": 11
+    },
+    "https://github.com/FULU-Foundation/OrcaSlicer-bambulab": {
+      "week": "2026-W20",
+      "score": 9
+    },
+    "https://github.com/cactus-compute/needle": {
+      "week": "2026-W20",
+      "score": 11
+    },
+    "https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html": {
+      "week": "2026-W20",
+      "score": 11
+    },
+    "https://vittorioromeo.com/index/blog/refl_enum_to_string.html": {
+      "week": "2026-W20",
+      "score": 11
+    },
+    "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise": {
+      "week": "2026-W20",
+      "score": 8
+    },
+    "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html": {
+      "week": "2026-W20",
+      "score": 12
+    },
+    "https://github.com/Genymobile/scrcpy/releases/tag/v4.0": {
+      "week": "2026-W20",
+      "score": 11
+    },
+    "https://blog.cloudflare.com/quic-death-spiral-fix/": {
+      "week": "2026-W20",
+      "score": 13
+    },
+    "https://github.com/tracewayapp/traceway": {
+      "week": "2026-W20",
+      "score": 10
+    },
+    "https://duckdb.org/2026/05/12/quack-remote-protocol": {
+      "week": "2026-W20",
+      "score": 11
+    },
+    "https://obsidian.md/blog/future-of-plugins/": {
+      "week": "2026-W20",
+      "score": 12
+    }
+  },
+  "last_updated": "2026-05-13T14:16:34.806Z"
 }
