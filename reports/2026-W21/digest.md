@@ -1,61 +1,68 @@
 # 第 21 周 AI Agent 使用技巧周报 (2026-05-18 ~ 2026-05-24)
 
 ## 官方动态
-本周无官方更新动态。
+本周无官方更新内容。
 
 ## 社区热帖 & 实战技巧
 
-- **[I turned a $80 RK3562 Android tablet into a Debian Linux workstation](https://github.com/tech4bot/rk3562deb)** | 来源: Hacker News | 2026-05-17
-  核心洞察：作者成功将一款仅售80美元的RK3562 Android平板电脑改造为Debian Linux工作站。该项目提供了完整的刷机指南、驱动配置和性能调优步骤。**实操建议**：如果你手头有闲置的低端Android平板，可以按照该仓库的教程将其变身为轻量级开发机或AI Agent的本地测试终端，特别适合运行Claude Code等CLI工具。
+- **[The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/)** | 来源: Hacker News | 2026-05-19
+  **核心洞察**：Simon Willison 以五分钟速览形式总结了 LLM 领域过去六个月的关键进展，涵盖模型能力提升、工具链演变和最佳实践变化。**可操作步骤**：花5分钟阅读此文，快速校准你对当前 LLM 生态的认知，避免在过时的技术假设上构建 Agent 工作流。
 
-- **[Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep](https://github.com/MinishLab/semble)** | 来源: Hacker News | 2026-05-17
-  核心洞察：Semble是一个专为AI Agent设计的代码搜索工具，相比传统grep方法可减少98%的token消耗。当Claude Code在大代码库中找不到目标时，传统做法是回退到grep、读取完整文件或启动子Agent，这消耗大量token且容易遗漏。Semble通过高效索引和检索算法解决了这一问题。**实操建议**：立即在你的Claude Code工作流中集成Semble，特别是处理大型代码库时。安装方式：`pip install semble`，然后在Agent提示词中指定使用`semble search`替代`grep`。
+- **[Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised](https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/)** | 来源: Hacker News | 2026-05-19
+  **核心洞察**：安全厂商 SafeDep 报告称 314 个 npm 包被植入恶意代码，攻击者利用供应链漏洞传播后门。**可操作步骤**：立即运行 `npm audit` 检查项目依赖，关注 SafeDep 提供的受影响包列表，对 CI/CD 流水线中的依赖扫描工具进行加固。
 
-- **[Show HN: Mezz, a curl-able WiFi sandbox for IoT pentesting](https://github.com/ABGEO/mezz)** | 来源: Hacker News | 2026-05-15
-  核心洞察：Mezz是一个可通过curl命令直接使用的WiFi沙箱环境，专为IoT渗透测试设计。它提供了一个隔离的测试环境，无需复杂配置即可快速启动。**实操建议**：如果你从事IoT安全研究或需要测试设备的网络行为，可以运行`curl -sL https://mezz.sh | bash`快速部署测试环境。注意：仅限授权测试使用。
+- **[New accessibility features powered by Apple Intelligence](https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/)** | 来源: Hacker News | 2026-05-19
+  **核心洞察**：Apple 发布了基于 Apple Intelligence 的新辅助功能，包括更智能的语音控制、实时字幕增强和视觉辅助工具。**可操作步骤**：如果你的 Agent 需要与 iOS/macOS 应用交互，关注这些新 API 的开放情况，它们可能为无障碍测试和自动化提供新入口。
 
-- **[Mozilla to UK regulators: VPNs are essential privacy and security tools](https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/)** | 来源: Hacker News | 2026-05-17
-  核心洞察：Mozilla向英国监管机构提交正式意见，强调VPN是必要的隐私和安全工具，不应被削弱。这一立场对全球VPN监管趋势有重要影响。**实操建议**：如果你使用AI Agent处理敏感数据或通过公共网络访问API，建议配置VPN以确保通信安全。关注Mozilla的VPN产品Mozilla VPN作为可信选项。
+- **[Kv4p HT – A homebrew 1W radio (VHF or UHF) that plugs into an Android phone](https://www.kv4p.com/)** | 来源: Hacker News | 2026-05-16
+  **核心洞察**：一个开源硬件项目，允许通过 Android 手机控制 1W 业余无线电收发器（VHF/UHF）。**可操作步骤**：对于需要离线通信或应急通信的 Agent 部署场景，此项目提供了低成本的自建无线电接口方案。
 
-- **[WriteUp: 16 Bytes of x86 that turn Matrix rain into sound](https://hellmood.111mb.de//wake_up_16b_writeup.html)** | 来源: Hacker News | 2026-05-17
-  核心洞察：作者用仅16字节的x86汇编代码实现了将《黑客帝国》数字雨效果转化为音频输出的功能。这是一个极致的代码压缩和创意编程案例。**实操建议**：对于对底层编程感兴趣的开发者，可以学习其中的代码优化技巧，这些技巧在编写高性能AI Agent插件或嵌入式系统代码时同样适用。
+- **[Cursor Introduces Composer 2.5](https://cursor.com/blog/composer-2-5)** | 来源: Hacker News | 2026-05-18
+  **核心洞察**：Cursor 编辑器发布 Composer 2.5 更新，改进了多文件编辑、上下文理解和代码生成质量。**可操作步骤**：如果你是 Cursor 用户，立即更新并测试新版本在复杂重构任务中的表现，特别是跨文件 Agent 协作场景。
 
-- **[Jank now has its own custom IR](https://jank-lang.org/blog/2026-05-08-optimization/)** | 来源: Hacker News | 2026-05-15
-  核心洞察：Jank语言（一种Clojure方言）宣布实现了自定义中间表示（IR），用于优化编译过程。这标志着该语言在性能优化方面迈出了重要一步。**实操建议**：如果你关注函数式编程或Clojure生态，可以关注Jank的发展。其IR设计思路可能对理解AI Agent的代码生成优化有启发。
+- **[Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust](https://github.com/harmont-dev/hsrs)** | 来源: Hacker News | 2026-05-19
+  **核心洞察**：一个类型安全的 Haskell-Rust 绑定生成器，类似 pyo3 和 napi-rs 的设计哲学。**可操作步骤**：如果你的 Agent 需要同时利用 Haskell 的类型系统和 Rust 的性能，此工具可大幅降低跨语言调用的类型安全风险。
 
-- **[Trials on veterans suggest ibogaine could provide a new treatment for PTSD](https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd)** | 来源: Hacker News | 2026-05-17
-  核心洞察：针对退伍军人的临床试验显示，伊博格碱（ibogaine）可能为PTSD提供新的治疗方案。研究结果具有初步但积极的信号。**实操建议**：对于医疗AI研究者，可以关注该领域的文献进展，考虑将AI用于分析伊博格碱的分子机制或预测患者反应。
+- **[Two computers, one monitor, zero fiddling (2025)](https://alexplescan.com/posts/2025/08/16/kvm/)** | 来源: Hacker News | 2026-05-16
+  **核心洞察**：一篇详细的 KVM（键盘-视频-鼠标切换器）配置指南，实现多台电脑共享一套外设的无缝切换。**可操作步骤**：对于运行多个开发/测试环境的 Agent 开发者，此方案可显著减少硬件切换的摩擦，提升多机协作效率。
 
-- **[VoIP brings back old-fashioned pay phones to rural Vermont (2025)](https://spectrum.ieee.org/payphone-voip)** | 来源: Hacker News | 2026-05-17
-  核心洞察：佛蒙特州农村地区利用VoIP技术复活了传统付费电话，为无网络覆盖区域提供通信服务。这是一个将旧技术通过现代协议重新激活的案例。**实操建议**：对于需要为偏远地区部署通信方案的团队，可以研究该项目的技术架构，考虑将类似思路应用于AI Agent的离线通信场景。
+- **[Photo GIMP – A Patch for GIMP 3 for Photoshop Users](https://github.com/Diolinux/PhotoGIMP)** | 来源: Hacker News | 2026-05-17
+  **核心洞察**：一个为 GIMP 3 设计的补丁，将界面和快捷键调整为类似 Photoshop 的布局。**可操作步骤**：如果你的 Agent 工作流涉及图像处理且团队从 Photoshop 迁移，此补丁可降低学习曲线，加速 GIMP 的自动化脚本集成。
 
-- **[I don't think AI will make your processes go faster](https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/)** | 来源: Hacker News | 2026-05-17
-  核心洞察：作者提出反主流观点，认为AI并不一定会加速业务流程。他分析了AI引入后的隐性成本，如调试时间、幻觉处理、上下文管理开销等。**实操建议**：在引入AI Agent到工作流前，先评估现有流程的瓶颈。AI最适合替代重复性、低容错率的任务，而非所有环节。建议先在小范围内进行A/B测试。
+- **[PyTorch Landscape](https://pytorch.landscape2.io)** | 来源: Hacker News | 2026-05-19
+  **核心洞察**：一个交互式可视化工具，展示 PyTorch 生态系统的工具、库和框架关系图。**可操作步骤**：在规划 Agent 的机器学习组件时，使用此工具快速发现适合特定任务的 PyTorch 扩展库，避免重复造轮子。
 
-- **[CUDA Books](https://github.com/alternbits/awesome-cuda-books)** | 来源: Hacker News | 2026-05-17
-  核心洞察：一个精选的CUDA编程书籍列表，涵盖从入门到高级的各类资源。**实操建议**：如果你需要优化AI Agent的GPU计算性能，可以从中挑选适合自己水平的书籍系统学习CUDA编程。
+- **[We let AIs run radio stations](https://andonlabs.com/blog/andon-fm)** | 来源: Hacker News | 2026-05-18
+  **核心洞察**：Andon Labs 让四个 AI Agent 完全自主运营一家广播电台，包括内容制作、播出和商业运营，目前收入表现不佳。**可操作步骤**：关注其公开报告中的失败模式——这些经验教训对任何全自主 Agent 的商业化部署都有参考价值。
+
+- **[Energy return in running shoes explained (2025)](https://runrepeat.com/guides/energy-return-in-running-shoes)** | 来源: Hacker News | 2026-05-17
+  **核心洞察**：RunRepeat 对跑鞋能量回弹性能的详细测试和分析。**可操作步骤**：虽然不直接相关，但其中关于材料科学和性能测试的方法论，可启发 Agent 在物理模拟或产品评测场景中的数据处理策略。
+
+- **[Make ZIP files smaller with ZIP Shrinker](https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/)** | 来源: Hacker News | 2026-05-17
+  **核心洞察**：介绍 ZIP Shrinker 工具，通过优化压缩算法参数进一步减小 ZIP 文件体积。**可操作步骤**：如果你的 Agent 需要频繁传输或存储大量文件，集成此工具可节省带宽和存储成本，特别是在云函数或边缘计算场景中。
+
+- **[Show HN: Id-agent – Token efficient UUID alternative for AI agents](https://github.com/vostride/id-agent)** | 来源: Hacker News | 2026-05-19
+  **核心洞察**：一个专为 AI Agent 设计的 Token 高效 UUID 替代方案，减少标识符在 Token 计数中的开销。**可操作步骤**：如果你的 Agent 系统需要生成大量唯一标识符（如对话 ID、任务 ID），考虑替换为 id-agent 以降低 Token 消耗。
+
+- **[Nim-Presto – REST API Framework for Nim Language](https://github.com/status-im/nim-presto)** | 来源: Hacker News | 2026-05-17
+  **核心洞察**：Status.im 团队为 Nim 语言开发的 REST API 框架，注重性能和类型安全。**可操作步骤**：如果你的 Agent 后端使用 Nim 构建，此框架可加速 API 开发，但需评估其社区活跃度和长期维护前景。
+
+- **[Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp](https://hyperpolyglot.org/lisp)** | 来源: Hacker News | 2026-05-18
+  **核心洞察**：一个对比 Common Lisp、Racket、Clojure 和 Emacs Lisp 四种 Lisp 方言的语法和特性参考。**可操作步骤**：对于考虑在 Agent 中嵌入 Lisp 解释器或 DSL 的开发者，此参考可帮助快速选择最适合的方言。
 
 ## 行业专家观点
-本周无行业专家观点更新。
+本周无专家观点内容。
 
 ## 工具与生态
-
-- **Semble** | 来源: Hacker News | 2026-05-17
-  解决的问题：AI Agent在大型代码库中搜索代码时token消耗过高、检索质量差的问题。**是否值得尝试**：强烈推荐。对于使用Claude Code处理大型项目的开发者，Semble可以显著降低token成本（声称减少98%），同时提高代码检索的准确性。开源且无需API密钥，值得立即集成到工作流中。
-
-- **Mezz** | 来源: Hacker News | 2026-05-15
-  解决的问题：IoT渗透测试中快速部署WiFi沙箱环境的需求。**是否值得尝试**：对于安全研究人员有价值，但对于普通AI Agent用户实用性有限。如果你从事IoT安全相关工作，可以尝试。
-
-- **RuView** | 来源: Hacker News | 2026-05-16
-  解决的问题：通过WiFi信号感知人体存在和活动。**是否值得尝试**：技术概念有趣但尚处于早期阶段，缺乏独立验证。对于智能家居或环境感知应用开发者可以关注，但暂不建议投入生产环境。
+本周无独立工具与生态条目（相关工具已在社区热帖中覆盖）。
 
 ## 本周洞察
 
-1. **AI Agent代码搜索效率成为焦点**：本周最突出的主题是Semble的出现，它直击了Claude Code等AI Agent在处理大型代码库时的核心痛点——token消耗和检索质量。这反映出社区正在从"能否用AI写代码"转向"如何让AI更高效地理解代码"。
+1. **供应链安全成为 Agent 生态的隐忧**：本周的 npm 包投毒事件（314 个包被攻陷）提醒我们，Agent 依赖的第三方库越多，攻击面越大。建议为所有 Agent 项目建立依赖审计和自动更新机制。
 
-2. **低成本硬件改造AI终端**：将80美元平板改造为Linux工作站的案例，暗示了AI Agent的本地部署趋势。随着Agent对计算资源的需求增加，利用廉价硬件构建专用终端可能成为新方向。
+2. **AI Agent 的自主运营实验进入媒体领域**：Andon Labs 让 AI 全自主运营广播电台的实验，虽然收入不佳，但标志着 Agent 从辅助工具向自主商业实体的探索迈出重要一步。失败模式比成功案例更具学习价值。
 
-3. **对AI效率的理性反思**：本周出现了对AI加速流程的质疑声音，提醒我们不要盲目追求AI化。结合Semble的优化思路，可以看出社区正在从"AI能做什么"转向"AI应该做什么"的务实阶段。
+3. **Token 效率成为 Agent 工具设计的新维度**：id-agent 等工具的出现表明，随着 Agent 使用 Token 的规模增长，标识符、序列化格式等基础设施层面的 Token 优化正在成为新的关注点。
 
 ---
-*Generated by Weekly Intel Pipeline on 2026-05-18*
+*Generated by Weekly Intel Pipeline on 2026-05-19*
