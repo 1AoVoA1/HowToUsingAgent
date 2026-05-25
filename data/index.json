@@ -175,7 +175,83 @@
     "https://alexplescan.com/posts/2025/08/16/kvm/": {
       "week": "2026-W21",
       "score": 11
+    },
+    "https://www.anthropic.com/research/how-people-ask-claude-for-personal-guidance": {
+      "week": "2026-W22",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/evaluating-claudes-bioinformatics-research-capabilities-with-biomysterybench": {
+      "week": "2026-W22",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/what-81000-people-told-us-about-the-economics-of-ai": {
+      "week": "2026-W22",
+      "score": 13
+    },
+    "https://audiomass.co/?multitrack=1": {
+      "week": "2026-W22",
+      "score": 13
+    },
+    "https://esengine.github.io/DeepSeek-Reasonix/": {
+      "week": "2026-W22",
+      "score": 9
+    },
+    "https://corrode.dev/learn/migration-guides/go-to-rust/": {
+      "week": "2026-W22",
+      "score": 11
+    },
+    "https://phabricator.services.mozilla.com/D301917": {
+      "week": "2026-W22",
+      "score": 10
+    },
+    "https://ohwr.org/projects/white-rabbit/": {
+      "week": "2026-W22",
+      "score": 13
+    },
+    "https://lospino.so/blog/c-constructs-that-still-dont-work-in-cpp/": {
+      "week": "2026-W22",
+      "score": 10
+    },
+    "https://epoch.ai/data-insights/ai-chip-component-cost-shares": {
+      "week": "2026-W22",
+      "score": 10
+    },
+    "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/": {
+      "week": "2026-W22",
+      "score": 11
+    },
+    "https://www.firefox.com/en-US/landing/adafruit/": {
+      "week": "2026-W22",
+      "score": 9
+    },
+    "https://www.clarityboss.com/blog/go-http2-cleartext-h2c-cloud-run": {
+      "week": "2026-W22",
+      "score": 9
+    },
+    "https://mastering.dyalog.com/README.html": {
+      "week": "2026-W22",
+      "score": 10
+    },
+    "https://tritium.legal/blog/noroboto": {
+      "week": "2026-W22",
+      "score": 10
+    },
+    "https://apple.github.io/ml-pico/": {
+      "week": "2026-W22",
+      "score": 12
+    },
+    "https://82mhz.net/posts/2026/05/getting-an-old-computer-online-with-android-ethernet-tethering/": {
+      "week": "2026-W22",
+      "score": 10
+    },
+    "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices": {
+      "week": "2026-W22",
+      "score": 12
+    },
+    "https://api-docs.deepseek.com/quick_start/pricing": {
+      "week": "2026-W22",
+      "score": 12
     }
   },
-  "last_updated": "2026-05-19T12:54:14.945Z"
+  "last_updated": "2026-05-25T05:27:27.865Z"
 }
