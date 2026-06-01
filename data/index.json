@@ -251,7 +251,79 @@
     "https://api-docs.deepseek.com/quick_start/pricing": {
       "week": "2026-W22",
       "score": 12
+    },
+    "https://www.anthropic.com/research/coding-agents-in-the-social-sciences": {
+      "week": "2026-W23",
+      "score": 10
+    },
+    "https://www.anthropic.com/research/donating-our-open-source-alignment-tool": {
+      "week": "2026-W23",
+      "score": 10
+    },
+    "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://prismml.com/news/bonsai-image-4b": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/": {
+      "week": "2026-W23",
+      "score": 12
+    },
+    "https://www.computerenhance.com/p/the-four-programming-questions-from": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai": {
+      "week": "2026-W23",
+      "score": 8
+    },
+    "https://spectrum.ieee.org/chip-design-academic-vs-industry": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://justine.lol/rseq/": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/": {
+      "week": "2026-W23",
+      "score": 12
+    },
+    "https://github.com/viggy28/streambed": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://www.nvidia.com/en-us/products/rtx-spark/": {
+      "week": "2026-W23",
+      "score": 12
+    },
+    "https://lwn.net/Articles/104185/": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://polypane.app/blog/using-safe-area-inset-to-build-mobile-safe-layouts/": {
+      "week": "2026-W23",
+      "score": 12
+    },
+    "https://www.lucasfcosta.com/blog/backpressure-is-all-you-need": {
+      "week": "2026-W23",
+      "score": 11
+    },
+    "https://github.com/pewdiepie-archdaemon/odysseus": {
+      "week": "2026-W23",
+      "score": 8
+    },
+    "https://github.com/trending?since=weekly": {
+      "week": "2026-W23",
+      "score": 8
     }
   },
-  "last_updated": "2026-05-25T05:27:27.865Z"
+  "last_updated": "2026-06-01T06:11:46.064Z"
 }
