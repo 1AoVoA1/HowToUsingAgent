@@ -323,7 +323,67 @@
     "https://github.com/trending?since=weekly": {
       "week": "2026-W23",
       "score": 8
+    },
+    "https://www.anthropic.com/research/project-deal": {
+      "week": "2026-W24",
+      "score": 12
+    },
+    "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/": {
+      "week": "2026-W24",
+      "score": 12
+    },
+    "https://ranpara.net/posts/perceptron-explained-from-scratch/": {
+      "week": "2026-W24",
+      "score": 8
+    },
+    "https://github.com/markusheimerl/gpt": {
+      "week": "2026-W24",
+      "score": 10
+    },
+    "https://algorithmichiring.github.io/": {
+      "week": "2026-W24",
+      "score": 11
+    },
+    "https://www.absurdlyoptimized.com/recipes/pancakes/": {
+      "week": "2026-W24",
+      "score": 11
+    },
+    "https://www.nosuggest.com/": {
+      "week": "2026-W24",
+      "score": 10
+    },
+    "https://github.com/melastmohican/rust-rpico2-embassy-examples": {
+      "week": "2026-W24",
+      "score": 9
+    },
+    "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision": {
+      "week": "2026-W24",
+      "score": 9
+    },
+    "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
+      "week": "2026-W24",
+      "score": 9
+    },
+    "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/": {
+      "week": "2026-W24",
+      "score": 12
+    },
+    "https://blog.ydb.tech/do-we-fear-the-serializable-isolation-level-more-than-we-fear-subtle-bugs-5a025401b609": {
+      "week": "2026-W24",
+      "score": 9
+    },
+    "https://github.com/devenjarvis/lathe": {
+      "week": "2026-W24",
+      "score": 10
+    },
+    "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/": {
+      "week": "2026-W24",
+      "score": 8
+    },
+    "https://blog.brixit.nl/cloning-a-sennheiser-ba2015-accu-pack/": {
+      "week": "2026-W24",
+      "score": 9
     }
   },
-  "last_updated": "2026-06-01T06:11:46.064Z"
+  "last_updated": "2026-06-08T06:00:41.557Z"
 }
