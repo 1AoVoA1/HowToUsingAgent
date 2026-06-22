@@ -455,7 +455,87 @@
     "https://www.aptiv.com/en/insights/article/usb-power-delivery-plugging-into-the-benefits": {
       "week": "2026-W25",
       "score": 10
+    },
+    "https://www.anthropic.com/research/project-vend-phase-two": {
+      "week": "2026-W26",
+      "score": 11
+    },
+    "https://www.anthropic.com/research/agentic-coding-and-persistent-returns-to-expertise": {
+      "week": "2026-W26",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/measuring-llms-impact-on-n-day-exploits": {
+      "week": "2026-W26",
+      "score": 12
+    },
+    "https://docs.deno.com/runtime/desktop/": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://apertvs.ai/": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://sakana.ai/fugu/": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://fil-c.org/inlineasm": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/": {
+      "week": "2026-W26",
+      "score": 11
+    },
+    "https://support.claude.com/en/articles/14328960-identity-verification-on-claude": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2": {
+      "week": "2026-W26",
+      "score": 12
+    },
+    "https://github.com/paytonjjones/bsharp": {
+      "week": "2026-W26",
+      "score": 8
+    },
+    "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://brandur.org/minimum-viable-unit": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-take-2-80736": {
+      "week": "2026-W26",
+      "score": 7
+    },
+    "https://the-criterion-closet.vercel.app": {
+      "week": "2026-W26",
+      "score": 10
+    },
+    "https://github.com/raiyanyahya/recall": {
+      "week": "2026-W26",
+      "score": 11
+    },
+    "https://blog.minimal.app/conversion-engine/": {
+      "week": "2026-W26",
+      "score": 9
+    },
+    "https://medium.com/@NoamShazeer/shape-suffixes-good-coding-style-f836e72e24fd": {
+      "week": "2026-W26",
+      "score": 8
     }
   },
-  "last_updated": "2026-06-15T06:33:30.076Z"
+  "last_updated": "2026-06-22T06:36:27.161Z"
 }
