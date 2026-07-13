@@ -631,7 +631,79 @@
     "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt": {
       "week": "2026-W28",
       "score": 10
+    },
+    "https://www.anthropic.com/research/a-global-workspace-in-language-models": {
+      "week": "2026-W29",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/anthropic-economic-index-report-cadences": {
+      "week": "2026-W29",
+      "score": 12
+    },
+    "https://nebusec.ai/research/ionstack-part-2/": {
+      "week": "2026-W29",
+      "score": 14
+    },
+    "https://news.ycombinator.com/item?id=48886741": {
+      "week": "2026-W29",
+      "score": 10
+    },
+    "https://www.susanrigetti.com/physics": {
+      "week": "2026-W29",
+      "score": 9
+    },
+    "https://vilkeliskis.com/b/2026/0711.html": {
+      "week": "2026-W29",
+      "score": 11
+    },
+    "https://systima.ai/blog/claude-code-vs-opencode-token-overhead": {
+      "week": "2026-W29",
+      "score": 12
+    },
+    "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6": {
+      "week": "2026-W29",
+      "score": 11
+    },
+    "https://kode.diy": {
+      "week": "2026-W29",
+      "score": 8
+    },
+    "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/": {
+      "week": "2026-W29",
+      "score": 11
+    },
+    "https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county": {
+      "week": "2026-W29",
+      "score": 10
+    },
+    "https://shub.club/writings/2026/july/check-your-scrollheight/": {
+      "week": "2026-W29",
+      "score": 10
+    },
+    "https://laxmena.com/same-capacity-less-throughput": {
+      "week": "2026-W29",
+      "score": 9
+    },
+    "https://malisper.me/the-four-horsemen-behind-thousands-of-postgres-outages/": {
+      "week": "2026-W29",
+      "score": 11
+    },
+    "https://nanduruganesh.github.io/flash-msa/": {
+      "week": "2026-W29",
+      "score": 12
+    },
+    "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/": {
+      "week": "2026-W29",
+      "score": 10
+    },
+    "https://www.calculix.de/": {
+      "week": "2026-W29",
+      "score": 9
+    },
+    "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547": {
+      "week": "2026-W29",
+      "score": 10
     }
   },
-  "last_updated": "2026-07-06T05:19:34.381Z"
+  "last_updated": "2026-07-13T04:36:44.816Z"
 }
