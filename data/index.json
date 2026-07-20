@@ -703,7 +703,67 @@
     "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547": {
       "week": "2026-W29",
       "score": 10
+    },
+    "https://www.anthropic.com/research/economic-index-cadences": {
+      "week": "2026-W30",
+      "score": 10
+    },
+    "https://news.ycombinator.com/item?id=48968606": {
+      "week": "2026-W30",
+      "score": 13
+    },
+    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/": {
+      "week": "2026-W30",
+      "score": 10
+    },
+    "https://github.com/hgaiser/moonshine": {
+      "week": "2026-W30",
+      "score": 11
+    },
+    "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard": {
+      "week": "2026-W30",
+      "score": 13
+    },
+    "https://smolnero.com/posts/the-zen-of-parallel-programming": {
+      "week": "2026-W30",
+      "score": 8
+    },
+    "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4": {
+      "week": "2026-W30",
+      "score": 12
+    },
+    "https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html": {
+      "week": "2026-W30",
+      "score": 11
+    },
+    "https://twitter.com/Alibaba_Qwen/status/2078759124914098291": {
+      "week": "2026-W30",
+      "score": 9
+    },
+    "https://justsomebody.dev/blog/mikrotik-home-router": {
+      "week": "2026-W30",
+      "score": 10
+    },
+    "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/": {
+      "week": "2026-W30",
+      "score": 11
+    },
+    "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/": {
+      "week": "2026-W30",
+      "score": 10
+    },
+    "https://quesma.com/blog/custom-deep-research-pipeline/": {
+      "week": "2026-W30",
+      "score": 9
+    },
+    "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study": {
+      "week": "2026-W30",
+      "score": 12
+    },
+    "https://ollama.com/blog/all-aboard-open-models": {
+      "week": "2026-W30",
+      "score": 11
     }
   },
-  "last_updated": "2026-07-13T04:36:44.816Z"
+  "last_updated": "2026-07-20T04:42:30.134Z"
 }
