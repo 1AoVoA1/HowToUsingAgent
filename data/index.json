@@ -763,7 +763,87 @@
     "https://ollama.com/blog/all-aboard-open-models": {
       "week": "2026-W30",
       "score": 11
+    },
+    "https://www.anthropic.com/research/project-pilot-can-ai-control-a-drone": {
+      "week": "2026-W31",
+      "score": 11
+    },
+    "https://www.anthropic.com/research/claude-plays-robotics": {
+      "week": "2026-W31",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/off-switch-dual-use-knowledge": {
+      "week": "2026-W31",
+      "score": 12
+    },
+    "https://www.anthropic.com/research/agentic-coding-persistent-returns-expertise": {
+      "week": "2026-W31",
+      "score": 13
+    },
+    "https://nikolays.github.io/PGSimCity/": {
+      "week": "2026-W31",
+      "score": 10
+    },
+    "https://blackhole.plav.in": {
+      "week": "2026-W31",
+      "score": 12
+    },
+    "https://beyondloom.com/decker/": {
+      "week": "2026-W31",
+      "score": 10
+    },
+    "https://github.com/vercel-labs/scriptc": {
+      "week": "2026-W31",
+      "score": 13
+    },
+    "https://www.imperialviolet.org/2026/07/26/zstd-lean.html": {
+      "week": "2026-W31",
+      "score": 12
+    },
+    "https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf": {
+      "week": "2026-W31",
+      "score": 11
+    },
+    "https://stephango.com/design-is-compromise": {
+      "week": "2026-W31",
+      "score": 8
+    },
+    "https://fontsinuse.com/": {
+      "week": "2026-W31",
+      "score": 10
+    },
+    "https://github.com/gmrandazzo/CheapSecurity": {
+      "week": "2026-W31",
+      "score": 10
+    },
+    "https://pkg.go.dev/golang.org/x/tools/go/analysis": {
+      "week": "2026-W31",
+      "score": 12
+    },
+    "https://vectoral.com/blog/token-relay-market": {
+      "week": "2026-W31",
+      "score": 10
+    },
+    "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and": {
+      "week": "2026-W31",
+      "score": 9
+    },
+    "https://pentaton.app/blog/2026-07-12-introducing-pentaton-lp/": {
+      "week": "2026-W31",
+      "score": 11
+    },
+    "https://killthecookiebanner.eu/": {
+      "week": "2026-W31",
+      "score": 10
+    },
+    "https://jvns.ca/blog/2026/07/21/more-nice-django-things/": {
+      "week": "2026-W31",
+      "score": 11
+    },
+    "https://www.pement.org/sed/make_indexes.txt": {
+      "week": "2026-W31",
+      "score": 10
     }
   },
-  "last_updated": "2026-07-20T04:42:30.134Z"
+  "last_updated": "2026-07-27T04:43:54.612Z"
 }
