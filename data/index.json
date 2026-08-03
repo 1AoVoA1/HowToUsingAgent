@@ -843,7 +843,67 @@
     "https://www.pement.org/sed/make_indexes.txt": {
       "week": "2026-W31",
       "score": 10
+    },
+    "https://qwen.ai/blog?id=qwen3.8": {
+      "week": "2026-W32",
+      "score": 10
+    },
+    "https://ssh.place": {
+      "week": "2026-W32",
+      "score": 10
+    },
+    "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/": {
+      "week": "2026-W32",
+      "score": 9
+    },
+    "https://github.com/wie-project/kakehashi": {
+      "week": "2026-W32",
+      "score": 10
+    },
+    "https://unattributed.cc/note-taking-and-personal-knowledge-management": {
+      "week": "2026-W32",
+      "score": 7
+    },
+    "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/": {
+      "week": "2026-W32",
+      "score": 8
+    },
+    "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/": {
+      "week": "2026-W32",
+      "score": 8
+    },
+    "https://github.com/micro/mu": {
+      "week": "2026-W32",
+      "score": 10
+    },
+    "https://pudding.cool/2026/07/essential-words/": {
+      "week": "2026-W32",
+      "score": 11
+    },
+    "https://fstar-lang.org/": {
+      "week": "2026-W32",
+      "score": 10
+    },
+    "https://github.com/graham33/nixos-dgx-spark": {
+      "week": "2026-W32",
+      "score": 11
+    },
+    "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/": {
+      "week": "2026-W32",
+      "score": 11
+    },
+    "https://localai.io/blog/why-we-write-our-own-engines/": {
+      "week": "2026-W32",
+      "score": 11
+    },
+    "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/": {
+      "week": "2026-W32",
+      "score": 12
+    },
+    "https://16-bits.org/ft2.php": {
+      "week": "2026-W32",
+      "score": 8
     }
   },
-  "last_updated": "2026-07-27T04:43:54.612Z"
+  "last_updated": "2026-08-03T04:37:10.530Z"
 }
