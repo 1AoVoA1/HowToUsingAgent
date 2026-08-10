@@ -1,0 +1,75 @@
+# 第 33 周 AI Agent 使用技巧周报 (2026-08-10 ~ 2026-08-16)
+
+## 官方动态
+
+本周暂无官方更新。建议持续关注 Anthropic 官方博客与 Claude Code 更新日志，以便第一时间获取新功能与变更通知。
+
+## 社区热帖 & 实战技巧
+
+- **[Human vs. AI – Diff-based line-level provenance for text under agentic editing](https://github.com/eighttrigrams/us-vs-them)** | 来源: Hacker News | 2026-08-09
+  这是一个针对 Agentic 编辑场景下的文本溯源工具，通过 diff 在行级别区分"人类撰写"与"AI 生成"的内容。在 Claude Code 协作流程中，该工具可用于内容审核、合规审计以及团队协作时的责任划分。建议在涉及 AI 辅助写作的正式文档流程中引入此类溯源机制，以增强内容可信度与可追溯性。
+
+- **[How I use LLMs to learn complex topics](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/)** | 来源: Hacker News | 2026-08-09
+  作者分享了利用 LLM 学习复杂主题的实操方法，包括主动提问、要求模型生成类比、以及通过"苏格拉底式对话"加深理解。对于 Claude Code 用户，可借鉴此思路：让 Claude 以"导师"角色对代码库进行逐步讲解，或要求其针对陌生技术栈生成对比表格与思维导图，从而加速技术债清理与新技术栈上手。
+
+- **[Cool URIs Don't Change (1998)](https://www.w3.org/Provider/Style/URI)** | 来源: Hacker News | 2026-08-09
+  这是 W3C 的经典设计原则，强调 URI 的稳定性对 Web 生态的重要性。虽然发布于 1998 年，但对当前 AI Agent 工作流仍有启示：当你在 Claude Code 中构建自动化脚本或知识库时，应确保引用的资源路径长期稳定，避免因链接失效导致 Agent 任务中断。建议在 Agent 配置中使用持久化标识符而非易变的临时链接。
+
+- **[ATProto for Distributed Systems Engineers](https://atproto.com/articles/atproto-for-distsys-engineers)** | 来源: Hacker News | 2026-08-06
+  来自 ATProto 官方站点的技术文章，面向分布式系统工程师介绍 AT Protocol 的架构设计。对于关注去中心化应用或联邦式数据同步的开发者，这篇文章提供了从 CRDT 到复制协议的深入解析。在 Claude Code 中构建多 Agent 协作系统时，可参考其中的数据一致性设计思路。
+
+- **[How We Pushed CDC into Postgres](https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/)** | 来源: Hacker News | 2026-08-10
+  Snowflake 官方工程博客详细介绍了如何将 Change Data Capture (CDC) 集成到 Postgres 中，实现到 Snowflake 的实时数据复制。对于使用 Claude Code 处理数据管道或 ETL 任务的团队，这篇文章提供了具体的架构参考，尤其是在需要实时同步与增量处理的场景下。
+
+- **[Reviving a four year old reMarkable 2](https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html)** | 来源: Hacker News | 2026-08-09
+  作者分享了通过 SSH 修复四年前 reMarkable 2 的完整过程，包括软件更新与硬件维护的具体步骤。对于使用 reMarkable 作为手写笔记工具并结合 Claude Code 进行文档管理的用户，这篇文章提供了延长设备寿命的实用技巧。
+
+- **[Japanese court overturns Red RAW video patent](https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/)** | 来源: Hacker News | 2026-08-10
+  日本法院推翻了 RED 的 RAW 视频专利，这一判决对视频处理与相机行业有深远影响。对于在 Claude Code 中处理视频元数据或构建媒体管道的开发者，需关注 RAW 格式相关专利状态的变化，以规避潜在的法律风险。
+
+- **[Show HN: A Project Oberon System version running on RISC-V instead of RISC-5](https://github.com/rochus-keller/OberonSystem/tree/op2-rv32)** | 来源: Hacker News | 2026-08-09
+  该项目将经典的 Oberon 系统移植到 RISC-V 架构。虽然属于小众技术方向，但对于研究操作系统原理或嵌入式开发的 Claude Code 用户，这是一个值得关注的教学与实验资源。
+
+- **[Show HN: Alphabet Soup, a multiplayer game, build the longest word to win](https://alphabetsoup.club)** | 来源: Hacker News | 2026-08-09
+  一款多人单词游戏，类似于 NYT Spelling Bee 但强调"最长单词"而非"最多单词"。可作为团队建设或休闲娱乐的轻量选择，也可用于测试 Claude 的词汇生成能力——尝试让 Claude 在游戏中寻找最优解，观察其策略表现。
+
+- **[Picophysics: Single file physics for games on platforms like N64, PSX, DC](https://gitlab.com/Kazade/picophysics)** | 来源: Hacker News | 2026-08-05
+  一个面向复古游戏平台（N64、PSX、DC）的单文件物理引擎。对于游戏开发领域的 Claude Code 用户，这是一个轻量级的参考实现，可用于学习如何在资源受限环境下实现物理模拟。
+
+- **[Windows 11's built-in Weather app wastes more than 1 GB of RAM](https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html)** | 来源: Hacker News | 2026-08-09
+  报道指出 Windows 11 内置天气应用存在内存泄漏问题，占用超过 1GB RAM。对于在 Windows 上运行 Claude Code 的开发者，建议检查系统资源占用，必要时禁用或替换该应用，以释放资源给开发环境。
+
+- **[OpenChamber: An Agentic Development Environment](https://openchamber.dev/)** | 来源: Hacker News | 2026-08-09
+  一个新兴的 Agentic 开发环境，旨在为 AI Agent 提供更高效的开发工作流。虽然目前缺乏详细的用户验证，但其理念与 Claude Code 的自动化方向高度契合。建议关注其发展，并在合适的时机进行试用对比。
+
+- **[Touring the Consensus, Six Months In](https://theconsensus.dev/blog/2026/08/05/touring-the-consensus-six-months-in.html)** | 来源: Hacker News | 2026-08-06
+  这是 Consensus 项目上线六个月后的回顾文章，分享了项目进展与经验教训。对于正在构建长期 AI Agent 项目的团队，这篇文章提供了关于项目演进、社区反馈与技术迭代的参考案例。
+
+- **[To recruit teachers, school districts are building homes](https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html)** | 来源: Hacker News | 2026-08-09
+  NYT 报道了美国学区通过建设住房来吸引教师的案例。虽然与 AI 技术无直接关联，但反映了"用基础设施解决人才问题"的思路——类比到 AI Agent 领域，可理解为：为 Agent 提供稳定的运行环境（如专用硬件、网络资源）是提升其效能的根本。
+
+## 行业专家观点
+
+本周暂无专家观点更新。建议关注 AI Agent 领域知名从业者的博客与社交媒体，以获取更多深度分析。
+
+## 工具与生态
+
+- **us-vs-them** | 来源: GitHub | 2026-08-09
+  解决 AI 编辑场景下的文本溯源问题，通过 diff 在行级别区分人类与 AI 的贡献。适合需要内容审计与合规追踪的团队，值得一试。
+
+- **OpenChamber** | 来源: openchamber.dev | 2026-08-09
+  提供 Agentic 开发环境，目标是优化 AI Agent 的开发体验。目前处于早期阶段，建议观望并关注后续迭代。
+
+- **Picophysics** | 来源: GitLab | 2026-08-05
+  面向复古游戏平台的单文件物理引擎，适合游戏开发者作为轻量级参考实现。小众但实用。
+
+## 本周洞察
+
+1. **AI 内容溯源成为新焦点**：本周的 us-vs-them 项目与多篇讨论表明，随着 Agentic 编辑的普及，如何区分"人类创作"与"AI 生成"的内容正成为合规与协作的关键议题。建议团队尽早建立内容溯源机制。
+
+2. **经典原则在 AI 时代依然适用**：W3C 的"Cool URIs Don't Change"原则提醒我们，在构建 AI Agent 工作流时，资源的稳定性与持久性比以往更重要——Agent 的自动化任务高度依赖可靠的资源引用。
+
+3. **Agent 环境的"基础设施思维"**：从学区建房吸引教师到 Windows 应用的内存问题，本周多篇内容都指向一个共同点：为 Agent（或人才）提供稳定、高效的运行环境，是释放其潜力的前提。在 Claude Code 中，这意味着关注系统资源分配、依赖管理与网络稳定性。
+
+---
+*Generated by Weekly Intel Pipeline on 2026-08-10*
