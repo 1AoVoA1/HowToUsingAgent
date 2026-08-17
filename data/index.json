@@ -959,7 +959,83 @@
     "https://alphabetsoup.club": {
       "week": "2026-W33",
       "score": 8
+    },
+    "https://simonwillison.net/2026/Aug/16/qwen-38-27b/": {
+      "week": "2026-W34",
+      "score": 12
+    },
+    "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html": {
+      "week": "2026-W34",
+      "score": 12
+    },
+    "https://rvembedded.com/blog_post/12/": {
+      "week": "2026-W34",
+      "score": 10
+    },
+    "https://platform.claude.com/docs/en/release-notes/system-prompts": {
+      "week": "2026-W34",
+      "score": 14
+    },
+    "https://pikuma.com/blog/programming-intel-pentium-mmx-simd": {
+      "week": "2026-W34",
+      "score": 9
+    },
+    "https://reticulum.network/": {
+      "week": "2026-W34",
+      "score": 10
+    },
+    "https://wiki.lowtechlab.org/wiki/Filtre_%C3%A0_eau_c%C3%A9ramique/en": {
+      "week": "2026-W34",
+      "score": 11
+    },
+    "https://buf.build/blog/protobuf-lsp": {
+      "week": "2026-W34",
+      "score": 12
+    },
+    "https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203/": {
+      "week": "2026-W34",
+      "score": 11
+    },
+    "https://vectoral.com/blog/who-are-the-token-brokers": {
+      "week": "2026-W34",
+      "score": 10
+    },
+    "https://math-ai-org.github.io/mathcode/": {
+      "week": "2026-W34",
+      "score": 11
+    },
+    "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/": {
+      "week": "2026-W34",
+      "score": 11
+    },
+    "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose": {
+      "week": "2026-W34",
+      "score": 9
+    },
+    "https://bernsteinbear.com/blog/zkp/": {
+      "week": "2026-W34",
+      "score": 9
+    },
+    "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios": {
+      "week": "2026-W34",
+      "score": 14
+    },
+    "https://news.ycombinator.com/item?id=49322107": {
+      "week": "2026-W34",
+      "score": 10
+    },
+    "https://ei3lh.eu/2026/08/16/a-true-telnet-bbs-on-a-casio-calculator/": {
+      "week": "2026-W34",
+      "score": 10
+    },
+    "https://www.wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core": {
+      "week": "2026-W34",
+      "score": 13
+    },
+    "https://arxiv.org/abs/2608.08421": {
+      "week": "2026-W34",
+      "score": 11
     }
   },
-  "last_updated": "2026-08-10T03:15:19.194Z"
+  "last_updated": "2026-08-17T02:22:28.187Z"
 }
