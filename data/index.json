@@ -1035,7 +1035,83 @@
     "https://arxiv.org/abs/2608.08421": {
       "week": "2026-W34",
       "score": 11
+    },
+    "https://schlarp.com/posts/everything-i-own-owned/": {
+      "week": "2026-W35",
+      "score": 8
+    },
+    "https://lalitm.com/post/find-problems-staff-engineer/": {
+      "week": "2026-W35",
+      "score": 10
+    },
+    "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/": {
+      "week": "2026-W35",
+      "score": 9
+    },
+    "https://fabiensanglard.net/agent.md/index.html": {
+      "week": "2026-W35",
+      "score": 11
+    },
+    "https://how.complexsystems.fail/": {
+      "week": "2026-W35",
+      "score": 10
+    },
+    "https://securelist.com/android-head-unit-malware/121106/": {
+      "week": "2026-W35",
+      "score": 11
+    },
+    "https://github.com/AlpinDale/gpt2.cmake": {
+      "week": "2026-W35",
+      "score": 10
+    },
+    "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps": {
+      "week": "2026-W35",
+      "score": 12
+    },
+    "https://punyamishra.com/2026/04/16/why-sal-khant-on-learning-by-making-but-teaching-by-telling/": {
+      "week": "2026-W35",
+      "score": 9
+    },
+    "https://debloat.dev/": {
+      "week": "2026-W35",
+      "score": 11
+    },
+    "https://timharford.com/2026/08/explain-it-to-me-like-im-ten/": {
+      "week": "2026-W35",
+      "score": 10
+    },
+    "https://www.jepeake.com/ai-chip-architectures": {
+      "week": "2026-W35",
+      "score": 9
+    },
+    "https://omegion.dev/2026/08/ai-and-infrastructure-engineering/": {
+      "week": "2026-W35",
+      "score": 8
+    },
+    "https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/": {
+      "week": "2026-W35",
+      "score": 10
+    },
+    "https://barrd.dev/article/parallel-development-without-the-headaches-using-git-worktree/": {
+      "week": "2026-W35",
+      "score": 12
+    },
+    "https://www.pew.org/en/research-and-analysis/reports/2026/05/the-remote-work-challenge-lessons-from-5-cities": {
+      "week": "2026-W35",
+      "score": 9
+    },
+    "https://insufferable.dev/posts/vibe-tax/": {
+      "week": "2026-W35",
+      "score": 9
+    },
+    "https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/": {
+      "week": "2026-W35",
+      "score": 8
+    },
+    "https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/": {
+      "week": "2026-W35",
+      "score": 10
     }
   },
-  "last_updated": "2026-08-17T02:22:28.187Z"
+  "last_updated": "2026-08-24T02:25:55.819Z"
 }
