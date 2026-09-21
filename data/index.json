@@ -1287,7 +1287,51 @@
     "https://vickiboykis.com/2026/09/01/bad-code-is-kudzu/": {
       "week": "2026-W38",
       "score": 8
+    },
+    "https://www.anthropic.com/research": {
+      "week": "2026-W39",
+      "score": 10
+    },
+    "https://agentexecutor.io": {
+      "week": "2026-W39",
+      "score": 8
+    },
+    "https://qwen.ai/blog?id=qwen-image-2.1": {
+      "week": "2026-W39",
+      "score": 11
+    },
+    "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666": {
+      "week": "2026-W39",
+      "score": 10
+    },
+    "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html": {
+      "week": "2026-W39",
+      "score": 8
+    },
+    "https://outdata.net/blog/260803": {
+      "week": "2026-W39",
+      "score": 9
+    },
+    "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/": {
+      "week": "2026-W39",
+      "score": 8
+    },
+    "https://gregorygundersen.com/blog/2018/04/15/backprop/": {
+      "week": "2026-W39",
+      "score": 9
+    },
+    "https://tinybrains.dev": {
+      "week": "2026-W39",
+      "score": 10
+    },
+    "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0": {
+      "week": "2026-W39",
+      "score": 11
+    },
+    "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/": {
+      "week": "2026-W39",
+      "score": 9
     }
   },
-  "last_updated": "2026-09-14T06:02:32.629Z"
+  "last_updated": "2026-09-21T06:07:02.649Z"
 }
