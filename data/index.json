@@ -1331,7 +1331,55 @@
     "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/": {
       "week": "2026-W39",
       "score": 9
+    },
+    "https://fireworks.ai/blog/ember-1": {
+      "week": "2026-W40",
+      "score": 10
+    },
+    "https://www.inkandswitch.com/essay/malleable-software/": {
+      "week": "2026-W40",
+      "score": 10
+    },
+    "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/": {
+      "week": "2026-W40",
+      "score": 9
+    },
+    "https://shnatsel.github.io/state-of-simd-rust-2026/": {
+      "week": "2026-W40",
+      "score": 12
+    },
+    "https://github.com/dashersw/coyopedal": {
+      "week": "2026-W40",
+      "score": 9
+    },
+    "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/": {
+      "week": "2026-W40",
+      "score": 10
+    },
+    "https://iain.rocks/blog/dont-couple-your-go-code-to-github": {
+      "week": "2026-W40",
+      "score": 10
+    },
+    "https://github.com/deepfates/imp": {
+      "week": "2026-W40",
+      "score": 11
+    },
+    "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/": {
+      "week": "2026-W40",
+      "score": 8
+    },
+    "https://asawicki.info/articles/writing_efficient_cpp_code.php": {
+      "week": "2026-W40",
+      "score": 9
+    },
+    "https://generalroboticslab.com/cartesian_handv1": {
+      "week": "2026-W40",
+      "score": 10
+    },
+    "https://fakecloud.dev/": {
+      "week": "2026-W40",
+      "score": 11
     }
   },
-  "last_updated": "2026-09-21T06:07:02.649Z"
+  "last_updated": "2026-09-28T06:37:33.297Z"
 }
